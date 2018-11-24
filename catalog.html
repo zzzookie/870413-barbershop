@@ -29,13 +29,47 @@
       </ul>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!-- ФОРМА -->        
+        <form action="filter" method="post">
+        <h3 class="filter-header">Производители:</h3>
+          <p class="filter">
+            <input type="checkbox" name="producer" value="Baxter of California">
+            <label >Baxter of California
+          </p>
+          <p class="filter">
+            <input type="checkbox" name="producer" value="Mr Natty">Mr Natty
+          </p>
+          <p class="filter">
+            <input type="checkbox" name="producer" value="Suavecito">Suavecito
+          </p>
+          <p class="filter">
+            <input type="checkbox" name="producer" value="Malin-Goetz">Malin-Goetz
+          </p>
+          <p class="filter">
+            <input type="checkbox" name="producer" value="Murray's">Murray's
+          </p>
+          <p class="filter">
+            <input type="checkbox" name="producer" value="American Crew">American Crew
+          </p>
+        <h3 class="filter-header">Производители:</h3>
+          <p class="filter">
+            <input type="radio" name="items-group" value="Бритвенные принадлежности" id="razors">
+            <label for="razors">Бритвенные принадлежности</label>
+          </p>
+          <p class="filter">
+            <input type="radio" name="items-group" value="Средства для ухода" id="care">
+            <label for="care">Средства для ухода</label>
+          </p>
+          <p class="filter">
+            <input type="radio" name="items-group" value="Аксессуары" id="accessories">
+            <label for="accessories">Аксессуары</label>
+          </p>
+          <input type="submit" name="Показать">
+        </form>      
       </section>
 
       <section class="catalog">
         <h2 class="visually-hidden">Каталог товаров</h2>
         <ul>
-
           <li>
             <h3>
               <a href="catalog-item.html">
@@ -120,7 +154,6 @@
                 <a class="button" href="#">Купить</a>
             </p>
           </li>
-
 
           <li>
             <h3>
