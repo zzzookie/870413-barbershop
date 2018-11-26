@@ -30,45 +30,53 @@
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <form action="filter" method="post">
-        <h3 class="filter-header">Производители:</h3>
-          <p class="filter">
-            <input type="checkbox" name="producer" value="Baxter of California" id="baxter">
-            <label for="baxter">Baxter of California</label>
-          </p>
-          <p class="filter">
-            <input type="checkbox" name="producer" value="Mr Natty" id="natty">
-            <label for="natty">Mr Natty</label>
-          </p>
-          <p class="filter">
-            <input type="checkbox" name="producer" value="Suavecito" id="suavecito">
-            <label for="suavecito">Suavecito</label>
-          </p>
-          <p class="filter">
-            <input type="checkbox" name="producer" value="Malin-Goetz" id="malin-goetz">
-            <label for="malin-goetz">Malin-Goetz</label>
-          </p>
-          <p class="filter">
-            <input type="checkbox" name="producer" value="Murray's" id="murrays">
-            <label for="murrays">Murray's</label>
-          </p>
-          <p class="filter">
-            <input type="checkbox" name="producer" value="American Crew" id="american-crew">
-            <label for="american-crew">American Crew</label>
-          </p>
-        <h3 class="filter-header">Производители:</h3>
-          <p class="filter">
-            <input type="radio" name="items-group" value="Бритвенные принадлежности" id="razors">
-            <label for="razors">Бритвенные принадлежности</label>
-          </p>
-          <p class="filter">
-            <input type="radio" name="items-group" value="Средства для ухода" id="care">
-            <label for="care">Средства для ухода</label>
-          </p>
-          <p class="filter">
-            <input type="radio" name="items-group" value="Аксессуары" id="accessories">
-            <label for="accessories">Аксессуары</label>
-          </p>
-          <input type="submit" name="Показать">
+        <fieldset>
+          <legend class="filter-header">Производители:</legend>
+          <ul>
+            <li class="filter">
+              <input type="checkbox" name="producer" value="Baxter of California" id="baxter">
+              <label for="baxter">Baxter of California</label>
+            </li>
+            <li class="filter">
+              <input type="checkbox" name="producer" value="Mr Natty" id="natty">
+              <label for="natty">Mr Natty</label>
+            </li>
+            <li class="filter">
+              <input type="checkbox" name="producer" value="Suavecito" id="suavecito">
+              <label for="suavecito">Suavecito</label>
+            </li>
+            <li class="filter">
+              <input type="checkbox" name="producer" value="Malin-Goetz" id="malin-goetz">
+              <label for="malin-goetz">Malin-Goetz</label>
+            </li>
+            <li class="filter">
+              <input type="checkbox" name="producer" value="Murray's" id="murrays">
+              <label for="murrays">Murray's</label>
+            </li>
+            <li class="filter">
+              <input type="checkbox" name="producer" value="American Crew" id="american-crew">
+              <label for="american-crew">American Crew</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend class="filter-header">Производители:</legend>
+          <ul>
+            <li class="filter">
+              <input type="radio" name="items-group" value="Бритвенные принадлежности" id="razors">
+              <label for="razors">Бритвенные принадлежности</label>
+            </li>
+            <li class="filter">
+              <input type="radio" name="items-group" value="Средства для ухода" id="care">
+              <label for="care">Средства для ухода</label>
+            </li>
+            <li class="filter">
+              <input type="radio" name="items-group" value="Аксессуары" id="accessories">
+              <label for="accessories">Аксессуары</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit" name="Показать">
         </form>      
       </section>
 
